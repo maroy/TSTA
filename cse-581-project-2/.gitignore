@@ -1,0 +1,7 @@
+.idea/
+/src/*.pyc
+/data/tl_2014_us_county/
+/data/*.db
+/db/
+.DS_Store
+/src/output

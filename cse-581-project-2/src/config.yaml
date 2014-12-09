@@ -1,0 +1,9 @@
+commit_seconds: 15
+db_size_limit: 1048576
+data_folder: ../db
+key_words:
+  - nfl
+  - nhl
+  - nba
+languages:
+  - en

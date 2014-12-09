@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Visualization</title>
+        <link rel="stylesheet" href="viz.css" />
+    </head>
+    <body>
+        <div id="content">
+            <select id="subset">
+                <option value="" selected="selected"></option>
+                <option value="all">All</option>
+                <option value="nba">NBA</option>
+                <option value="nfl" >NFL</option>
+                <option value="nhl">NHL</option>
+            </select>
+            <select id="startDate">
+            </select>
+            <input type="text" id="tickLen" value="250" size="5" />
+            <button id="go">Go</button>
+            <span id="loading" style="display: none">loading...</span>
+            <br />
+            <span id="dateRange"></span>
+            <table id="trendTable">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <script src="jquery-2.1.1.min.js"></script>
+        <script src="viz.js"></script>
+    </body>
+</html>

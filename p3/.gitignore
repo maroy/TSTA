@@ -1,0 +1,4 @@
+*.pyc
+/viz/*.json
+data.txt
+/.idea/
